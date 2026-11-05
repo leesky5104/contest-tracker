@@ -12,3 +12,7 @@
 - 막혔던 것:
 - 새로 알게 된 것: CRUD 개념, REST 주소 설계, Pydantic으로 데이터 양식 검사, 상태 코드(201, 204, 404, 422)
 
+## Day 3
+- 오늘 만든 것: SQLite + SQLAlchemy로 공모전 데이터 영구 저장
+- 막혔던 것:
+- 새로 알게 된 것: DB 개념, ORM, requirements.txt의 역할, 서버는 요청 때마다 contest.db를 읽고 쓴다

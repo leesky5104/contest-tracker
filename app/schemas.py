@@ -1,7 +1,7 @@
 from datetime import date
 from typing import Optional
 
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class ContestCreate(BaseModel):
@@ -14,4 +14,6 @@ class ContestCreate(BaseModel):
 
 
 class Contest(ContestCreate):
+    model_config = ConfigDict(from_attributes=True)
+
     id: int
